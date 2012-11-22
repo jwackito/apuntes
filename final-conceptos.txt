@@ -1,0 +1,96 @@
+Bibliografía
+
+ Pratt = Programming languages - Design and implementation. Pratt, L; Zelkowitz, M. 4ta Edición
+
+ENCUENTRO 1
+	GENERALIDADES
+Indicar los criterios para evaluar un lenguaje de programación.
+	Según Pratt:
+	* Claridad, simplicidad y unidad: a programming language should be an aid to the programmer, long before the coding state. It should provide a clear, simple and unified set of concepts that can be used as primitives in developing algorithms.
+	* Ortogonalidad: Cuando varias características de un lenguaje pueden combinarse en todas las formas posibles y todas ellas tienen significado en el lenguaje. (Pratt,pag 21)
+	* Naturalidad para la aplicación:
+	* Soporte para abstracción:
+	* Facilidad para la verificación:
+	* Ambiente de programación:
+	* Portabilidad de los programas:
+	* Costo del uso del lenguaje:
+		- Costo de la ejecución
+		- Costo de la compilación
+		- Costo de creación, testeo y uso
+		- Costo de mantenimiento
+
+¿Cómo se mide la eficiencia de un software?
+
+¿Qué significa que un lenguaje sea ortogonal?
+
+Mostrar ejemplos de los criterios.
+¿Cuáles fueron los motivos por los cuales los lenguajes de programación evolucionaron?
+Describir la evolución de los lenguajes de programación en cuanto a su sistema de tipos.
+Describir la rama de la evolución de los lenguajes que condujo a la aparición del paradigma de objetos.
+Describir los aportes del lenguaje ADA a la evolución de los lenguajes.
+Según su criterio ¿Cuales fueron los lenguajes que más aportaron a la evolución de los lenguajes de programación y por qué?
+	
+	SINTÁXIS Y SEMÁNTICA
+¿Qué es sintáxis?
+¿Qué es semántica?
+¿Cuál es la manera formal e informal en la que estos términos se utilizan en los lenguajes de programación?
+¿Qué es compilación?
+¿Qué es interpretación?
+¿Cómo se relacionan y cómo se diferencian ambos conceptos?
+Defina y describa la utilidad de la sintaxis de un lenguaje
+Diferencie: Reglas léxicas y reglas sintácticas, sintaxis abstracta y sintaxis concreta. Ejemplifique.
+¿Qué forma de definir la sintaxis conoce?, Compárelas.
+¿Qué diferencias existen entre una gramática libre de contexto y una gramática sensible al contexto? Dé ejemplos.
+¿Cuándo una gramática es ambigua? ¿Se puede solucionar?
+¿Qué son BNF y EBNF? Defínalas y compárelas.
+¿Qué formas de definir la Semántica de un lenguaje conoce? Descríbalas brevemente.
+Defina y diferencia la semántica estática de la  semántica dinámica. Ejemplifique.
+
+
+
+
+ENCUENTRO 2
+		SEMANTICA OPERACIONAL
+¿Que es la semántica operacional?
+	La semática operacional define como el programa, en el lenguaje, será ejecutado en un procesador virtual. El procesador virtual es un autómata, el cual dependiendo de la complejidad, puede resguardar más o menos información acerca del programa.
+
+¿Cuáles son sus elementos principales?
+
+¿Para que sirve el procesador abstracto?
+	Para simular la ejecución y el comportamiento del programa.
+
+¿Qué es una ligadura y cual es su función?
+	ghessi - p49
+	Es el momento en que se une el atributo de una entidad con su valor.
+
+		VARIABLES
+¿Cuáles son los atributos de una variable? (descripción de cada uno?)
+¿Cómo se clasifican las variables según sus atributos?
+¿Cómo se diferencian las variables globales de las variables estáticas?
+¿Qué es una variable automática, semiautomática y dinámica?
+¿Cuáles son las características de las variables estáticas y semiestáticas?
+¿Cuáles son las diferencias entre variables estáticas y las constantes?
+¿Por que es recomendable usar constantes a variables estáticas?
+Describir el mecanismo de ligadura estática y ligadura dinámica para dos atributos de una variable
+¿Qué es un alias y cuales son los peligros derivados de su uso?
+Construir dos ejemplos donde los atributos de alcance y tiempo de vida sean diferentes
+
+
+REPRESENTACIÓN DE EJECUCIÓN
+Indicar las características de un lenguaje con esquema estático.
+Indicar las características de un lenguaje con esquema dinámico
+Indicar las características de un lenguaje con esquema basado en pila.
+¿Qué lenguajes actuales se encuadran en estos esquemas?
+¿Con que clases de variables se puede trabajar en cada esquema?
+¿Que información se guarda en el segmento de código de una unidad? ¿es estático o dinámico?
+Describa como es el registro de activación, detallando la información que contiene.
+Describa el ambiente de referencia de una unidad.
+Justifique la existencia de un link dinámico en la semántica operacional de un lenguaje.
+Si el lenguaje sigue la cadena estática, para resolver las referencias no locales, ¿es  necesario el link dinámico? Justifique
+¿Qué es una variable sensible a la  historia? ¿Todos los lenguajes las proveen?.
+Marque diferencias semánticas y como se los implementa, a un arreglo seminidinamico y un arreglo dinámico.
+¿Qué se hace en compilación y que en ejecución?
+¿Cuándo es indispensable que un objeto de datos sea almacenado en el heap? Ejemplos
+
+
+
