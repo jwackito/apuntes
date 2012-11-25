@@ -9,6 +9,7 @@ Indicar los criterios para evaluar un lenguaje de programación.
 	* Claridad, simplicidad y unidad: a programming language should be an aid to the programmer, long before the coding state. It should provide a clear, simple and unified set of concepts that can be used as primitives in developing algorithms.
 	* Ortogonalidad: Cuando varias características de un lenguaje pueden combinarse en todas las formas posibles y todas ellas tienen significado en el lenguaje. (Pratt,pag 21)
 	* Naturalidad para la aplicación:
+		Un lenguaje de paradigma funcional será adecuado para trabajar con funciones o para representar ideas matemáticas abstractas pero probablemente sea muy difícil escribir en un lenguaje así, aplicaciones con interfaz de usuario 
 	* Soporte para abstracción:
 	* Facilidad para la verificación:
 	* Ambiente de programación:
@@ -22,23 +23,37 @@ Indicar los criterios para evaluar un lenguaje de programación.
 ¿Cómo se mide la eficiencia de un software?
 
 ¿Qué significa que un lenguaje sea ortogonal?
+	Se dice que un lenguaje es ortogonal cuando algunas de sus características pueden combinarse de todas las formas posibles, dando como resultado combinaciones que tienen sentido dentro del lenguaje. Un aspecto negativo de la ortogonalidad es que a menudo un programa compilará sin errores incluso cuando contenga combinaciones logicamente incoherentes o extremadamente ineficientes a la hora de ejecutarlas.
+	Por otra parte, según Pratt, un lenguaje ortogonal será más sencillo de aprender (cosa que me parece discutible) y los programas son más fáciles de escribir, ya que solo se deben recordar pocas excepciones y casos particulares.
+	Pratt menciona el ejemplo del if de C. Como condicional se puede utilizar cualquier expresión que retorne un valor, en particular, la asignación. Una expresión como if (variable = 3) compilará sin errores aunque el resultado previsto no será el esperado.
 
-Mostrar ejemplos de los criterios.
+
 ¿Cuáles fueron los motivos por los cuales los lenguajes de programación evolucionaron?
+
 Describir la evolución de los lenguajes de programación en cuanto a su sistema de tipos.
+
 Describir la rama de la evolución de los lenguajes que condujo a la aparición del paradigma de objetos.
 Describir los aportes del lenguaje ADA a la evolución de los lenguajes.
 Según su criterio ¿Cuales fueron los lenguajes que más aportaron a la evolución de los lenguajes de programación y por qué?
 	
 	SINTÁXIS Y SEMÁNTICA
 ¿Qué es sintáxis?
+	La sintaxis de un lenguaje permite determinar cuales combinaciones de símbolos son contrucciones válidas en el lenguaje, sin preocuparse de si dichas construcciones tienen sentido o no semánticamente. Según Pratt, determina la forma de un lenguaje pero no su significado.
 ¿Qué es semántica?
+	La semántica de un lenguaje permite determinar que efectos tiene o produce una determinada construcción sintactica. 
 ¿Cuál es la manera formal e informal en la que estos términos se utilizan en los lenguajes de programación?
 ¿Qué es compilación?
+	Es el proceso mediante el cual un programa escrito en un lenguaje de programación se transforma en un programa ejecutable en alguna plataforma informática. Durante este proceso se verifica que el programa escrito sea correcto en términos de su sintaxis, además de verificación de tipos y otras correcciones semáticas. 
+
 ¿Qué es interpretación?
+	Es el proceso por el cual un programa puede ser ejecutado sin necesidad de que previamente sea compilado. El intérprete transforma las instrucciones del programa en código de máquina a medida que lo va requiriendo. De esta manera, si una sección del programa no es ejecutada durante una corrida, entonces esa sección de código no se traducirá a código de máquina. Por otra parte, un programa que tenga errores de sintaxis o de otros tipos dará error en tiempo de ejecución en lugar de fallar en compilación.
+ 
 ¿Cómo se relacionan y cómo se diferencian ambos conceptos?
+
 Defina y describa la utilidad de la sintaxis de un lenguaje
+
 Diferencie: Reglas léxicas y reglas sintácticas, sintaxis abstracta y sintaxis concreta. Ejemplifique.
+
 ¿Qué forma de definir la sintaxis conoce?, Compárelas.
 ¿Qué diferencias existen entre una gramática libre de contexto y una gramática sensible al contexto? Dé ejemplos.
 ¿Cuándo una gramática es ambigua? ¿Se puede solucionar?
